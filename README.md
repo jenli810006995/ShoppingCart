@@ -11,8 +11,10 @@ I created an administration account, to monitor what products, customers(authent
    ![image](https://user-images.githubusercontent.com/38231830/146860204-3c46090a-6438-46d8-8333-efe9a27c9e4c.png)
 
 When the user added items to the shopping cart, the terminal would print out the order id and quantity as below. 
-However, on the admin page, the order history has not yet been built yet, and it is found that the payment method
-has not built up completely yet. Hence, the admin cannot see when an order has been completed or not.
+However, on the admin page, the order history has not been built yet, and it is found that the payment method
+has not built up completely yet. Hence, on the admin page, it actually cannot tell if an order has been completed or not, although
+I created a binary section for "completed".
+
    ![image](https://user-images.githubusercontent.com/38231830/146858178-418c6d7c-069d-48ab-923c-f568b30e3bbd.png)
 
 There are several features I have not managed to build or not successful. One is the number on the "cart" icon should have
@@ -33,7 +35,7 @@ The other problem is the shopping cart is failed to present a detailed list of t
 Lastly, the "payment" button has not been ready yet. I built a function named "SubmitFormData" which should print out in console saying "Transaction 
 completed." However, for some reasons, this feature has not built out succefully, might be due to JavaScript's CSRF-Token implementation. 
 
-    ![image](https://user-images.githubusercontent.com/38231830/146859414-3b4aa850-6c13-4e88-8e29-a8103f6165cb.png)
+   ![image](https://user-images.githubusercontent.com/38231830/146859414-3b4aa850-6c13-4e88-8e29-a8103f6165cb.png)
 
 
 In conclusion, "Shopping World" is my first Django project, and it has been a very inspiring and exciting experience. I would continue
